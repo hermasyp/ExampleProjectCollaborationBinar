@@ -25,6 +25,7 @@ class App {
         if (username == DUMMY_USERNAME && password == DUMMY_PASSWORD) {
             println("Login Success")
             printNameShodiq()
+            printNameRifki()
         } else {
             println("Login Failed")
         }
@@ -37,5 +38,8 @@ class App {
         println("Hey my name is Alun")
     }
 
+    private fun printNameRifki() {
+        println("Hello My name is Rifki")
+    }
 
 }
