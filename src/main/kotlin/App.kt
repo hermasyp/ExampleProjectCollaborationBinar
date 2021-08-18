@@ -26,6 +26,7 @@ class App {
             printNameShodiq()
             printNameRifki()
             printNameAlun()
+            printNameAlun()
         } else {
             println("Login Failed")
         }
