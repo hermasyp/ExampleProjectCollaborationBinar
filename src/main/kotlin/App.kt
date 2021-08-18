@@ -23,9 +23,14 @@ class App {
     private fun doLogin(username: String, password: String) {
         if (username == DUMMY_USERNAME && password == DUMMY_PASSWORD) {
             println("Login Success")
+            printNameMalik()
         } else {
             println("Login Failed")
         }
+    }
+
+    private fun printNameMalik() {
+        println("Hello my name is Malik")
     }
 
 
