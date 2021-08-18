@@ -18,7 +18,6 @@ class App {
         println("Enter Password = ")
         val password = readLine().orEmpty()
         doLogin(username, password)
-        printNameAlun()
     }
 
     private fun doLogin(username: String, password: String) {
@@ -26,6 +25,7 @@ class App {
             println("Login Success")
             printNameShodiq()
             printNameRifki()
+            printNameAlun()
         } else {
             println("Login Failed")
         }
