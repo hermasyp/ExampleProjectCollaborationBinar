@@ -9,6 +9,7 @@ class App {
         fun main(args: Array<String>) {
             App().start()
         }
+
     }
 
     fun start() {
